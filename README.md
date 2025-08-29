@@ -61,6 +61,8 @@ The application will start a web interface where you can upload dental X-rays fo
 
 ## 📋 How It Works
 
+For a detailed visualization of the process, see [Flowchart Documentation](docs/flowchart.md).
+
 1. **Image Analysis**: AI vision model examines the X-ray and identifies dental structures and anomalies
 2. **Feature Enhancement**: Applies dental-specific image processing to enhance contrast and details
 3. **Diagnostic Generation**: Creates a comprehensive report with differential diagnoses and treatment recommendations
