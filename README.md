@@ -10,6 +10,20 @@ An AI-powered system for analyzing dental X-rays using computer vision and natur
 - **Dental Knowledge Integration**: Specialized knowledge base for dental conditions
 - **Image Enhancement**: Preprocessing techniques optimized for dental X-rays
 
+## 📁 Project Structure
+
+```
+dental-xray-analysis/
+├── src/
+│   └── app.py              # Main application
+├── docs/                   # Documentation
+├── tests/                  # Unit tests
+├── requirements.txt        # Python dependencies
+├── .gitignore              # Git ignore rules
+├── LICENSE                 # License information
+└── README.md               # This file
+```
+
 ## 🚀 Technology Stack
 
 1. **Vision Encoder**: [BLIP](https://huggingface.co/Salesforce/blip-image-captioning-base) model for image analysis
@@ -40,7 +54,7 @@ An AI-powered system for analyzing dental X-rays using computer vision and natur
 
 Run the application:
 ```bash
-python app.py
+python src/app.py
 ```
 
 The application will start a web interface where you can upload dental X-rays for analysis.

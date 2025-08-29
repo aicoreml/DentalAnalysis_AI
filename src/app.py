@@ -408,7 +408,11 @@ def create_gradio_interface():
     
     return demo
 
-if __name__ == "__main__":
+def main():
+    """Main entry point for the Dental X-Ray Analysis System"""
     # Create and launch Gradio interface
     interface = create_gradio_interface()
     interface.launch(share=True)
+
+if __name__ == "__main__":
+    main()
