@@ -1,0 +1,14 @@
+pip install torch torchvision transformers Pillow opencv-python numpy matplotlib pandas
+
+with a GPU:
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+
+pip install pydicom
+
+
+in case of version conflicts:
+pip install --upgrade transformers torch torchvision
+
+For deployment additional pkgs:
+pip install fastapi uvicorn python-multipart
